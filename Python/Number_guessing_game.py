@@ -2,7 +2,7 @@
 
 import random
 
-def game(total_turns = 10, highest = 100):
+def game(total_turns = 10, highest = random.randint(100, 1000)):
     '''Main game function'''
 
     print(f"========== Guess the number between 0 to {highest} ==========")
